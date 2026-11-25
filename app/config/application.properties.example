@@ -1,0 +1,16 @@
+# ========================================================
+# SMS: Student Management System Configuration
+# ========================================================
+
+# MySQL Database Connection Settings
+db.host=localhost
+db.port=3306
+db.name=student_management_system
+db.user=root
+db.password=
+db.url=jdbc:mysql://localhost:3306/student_management_system?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+
+# Application Metadata
+app.title=SMS - Student Management System
+app.version=1.0.0
+app.theme=light
